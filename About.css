@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff9f6;
+  color: #1e1e1e;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff9f6;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-connect {
+  background: #1e1e1e;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* ========== About hero section ========== */
+.about-split {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 140px;
+  background-color: #fff9f6;
+  font-family: 'Poppins', sans-serif;
+  flex-wrap: wrap;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000;
+  max-width: 500px;
+}
+
+.about-image .image-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ========== Bio + Skills/Tools ========== */
+.about-details {
+  padding: 60px 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background-color: #fff9f6;
+  line-height: 1.6;
+}
+
+.bio-section {
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.bio-section h3 {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skills-tools-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skills, .tools {
+  flex: 1 1 300px;
+}
+
+.skills h3, .tools h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.skills ul, .tools ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li, .tools li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* ========== Education Section ========== */
+.education-section {
+  background: #fff9f6;
+  padding: 50px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.edu-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.edu-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.edu-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.edu-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.edu-list li:last-child {
+  border-bottom: none;
+}
+
+.degree {
+  font-size: 1rem;
+  color: #222;
+  flex: 1;
+}
+
+.school {
+  font-size: 1rem;
+  color: #555;
+  text-align: right;
+  flex: 1;
+}
+
+/* footer*/
+
+.site-footer {
+  background-color: #fdf8f5;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto 10px;
+  border: 0;
+  border-top: 1px solid #444;
+}
+
+.credit {
+  font-size: 0.85rem;
+  color: black;
+}
